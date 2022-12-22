@@ -34,10 +34,11 @@ class EventEmitter {
     }
 }
 // section for testing the code below, just un-comment ----------------------------------------------->
-const myEmitter = new EventEmitter();
-const cb1 = (data) => { console.log('you', data); };
-const event1 = myEmitter.subscribe('keyDown', cb1);
-console.log(myEmitter.subscriptions);
-// event1.unsubscribeCallBack();
-console.log(myEmitter.subscriptions);
-myEmitter.emit('keyDown', 'hello');
+//
+// const myEmitter = new EventEmitter();
+// const cb1 = (data) => { console.log('you', data) };
+// const event1 = myEmitter.subscribe('keyDown', cb1);
+// console.log(myEmitter.subscriptions);
+// // event1.unsubscribeCallBack();
+// console.log(myEmitter.subscriptions);
+// myEmitter.emit('keyDown', 'hello')
